@@ -15,57 +15,14 @@
 
     <form id="js-shopping-list-form">
       <label for="shopping-list-entry">Add an item</label>
-      <input type="text" name="shopping-list-entry" id="shopping-list-entry" placeholder="e.g., broccoli">
+      <input type="text" name="shopping-list-entry" id="js-new-item" placeholder="e.g., broccoli">
       <button type="submit">Add item</button>
     </form>
 
-    <ul class="shopping-list">
-      <li>
-        <span class="shopping-item">apples</span>
-        <div class="shopping-item-controls">
-          <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
-          </button>
-          <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <span class="shopping-item">oranges</span>
-        <div class="shopping-item-controls">
-          <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
-          </button>
-          <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <span class="shopping-item shopping-item__checked">milk</span>
-        <div class="shopping-item-controls">
-          <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
-          </button>
-          <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
-          </button>
-        </div>
-      </li>
-      <li>
-        <span class="shopping-item">bread</span>
-        <div class="shopping-item-controls">
-          <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
-          </button>
-          <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
-          </button>
-        </div>
-      </li>
+    <ul class="shopping-list js-shopping-list">
     </ul>
   </div>
-
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
